@@ -8,11 +8,11 @@ public class StaticQuizPojo{
 	@SerializedName("“question”")
 	private List<QuestionItem> question;
 
-	public void setQuestion(List<QuestionItem> question){
+	public void setQuestions(List<QuestionItem> question){
 		this.question = question;
 	}
 
-	public List<QuestionItem> getQuestion(){
+	public List<QuestionItem> getQuestions(){
 		return question;
 	}
 

@@ -10,7 +10,7 @@ import androidx.appcompat.widget.Toolbar;
 import com.example.quiz.R;
 
 public class StaticCategories extends AppCompatActivity {
-    private Button litrearture,lifestyle,coding,movies,booze,cartoon,cricket,webseries,politics,food;
+    private Button litrearture,lifestyle,coding,movies,booze,cartoon,cricket,webseries;
     private Toolbar toolbar;
 
     @Override
@@ -99,7 +99,9 @@ public class StaticCategories extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(StaticCategories.this,StaticQuiz.class);
+                intent.putExtra("category","cricket");
                 startActivity(intent);
+
             }
         });
 

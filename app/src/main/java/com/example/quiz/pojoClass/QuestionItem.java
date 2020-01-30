@@ -5,28 +5,28 @@ import com.google.gson.annotations.SerializedName;
 
 public class QuestionItem{
 
-	@SerializedName("“questionType”")
+	@SerializedName("questionType")
 	private String questionType;
 
-	@SerializedName("“category”")
+	@SerializedName("category")
 	private String category;
 
-	@SerializedName("“questionId”")
+	@SerializedName("questionId")
 	private String questionId;
 
-	@SerializedName("“answer”")
+	@SerializedName("answer")
 	private List<String> answer;
 
-	@SerializedName("“answerType”")
+	@SerializedName("answerType")
 	private String answerType;
 
-	@SerializedName("“question”")
+	@SerializedName("question")
 	private String question;
 
-	@SerializedName("“difficulty”")
+	@SerializedName("difficulty")
 	private String difficulty;
 
-	@SerializedName("“binaryFilePath”")
+	@SerializedName("binaryFilePath")
 	private String binaryFilePath;
 
 	public void setQuestionType(String questionType){
@@ -97,7 +97,7 @@ public class QuestionItem{
  	public String toString(){
 		return 
 			"QuestionItem{" + 
-			"“questionType” = '" + questionType + '\'' + 
+			"questionType” = '" + questionType + '\'' + 
 			",“category” = '" + category + '\'' + 
 			",“questionId” = '" + questionId + '\'' + 
 			",“answer” = '" + answer + '\'' + 
