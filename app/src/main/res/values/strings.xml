@@ -36,6 +36,7 @@
     <string name="food">Food</string>
     <string name="submit">Submit</string>
     <string name="skip">Skip this question?</string>
+    <string name="instance_id" translatable="false">InstanceID Token: %s</string>
 
 
 </resources>

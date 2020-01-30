@@ -8,6 +8,7 @@
     tools:context=".activity.DynamicGameActivity">
 
     <TextView
+        android:id="@+id/difficulty"
         android:layout_width="122dp"
         android:layout_height="32dp"
         android:fontFamily="@font/alike"
@@ -49,7 +50,7 @@
         android:id="@+id/audio_question"
         android:layout_width="109dp"
         android:layout_height="91dp"
-        android:background="@drawable/ic_launcher_foreground"
+        android:background="@drawable/audioimg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +60,7 @@
         android:id="@+id/btn_pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_launcher_foreground"
+        android:background="@drawable/pause"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.223"
@@ -71,7 +72,7 @@
         android:id="@+id/btn_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/ic_launcher_foreground"
+        android:background="@drawable/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.785"
@@ -80,7 +81,7 @@
         app:layout_constraintVertical_bias="0.37"
         tools:ignore="InvalidId"></ImageButton>
     <TextView
-        android:id="@+id/tv_question"
+        android:id="@+id/text_question"
         android:layout_width="367dp"
         android:layout_height="56dp"
         android:fontFamily="@font/alike"

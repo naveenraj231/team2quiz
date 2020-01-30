@@ -10,6 +10,9 @@ import android.widget.Button;
 import androidx.appcompat.widget.Toolbar;
 
 import com.example.quiz.R;
+import com.example.quiz.pojoClass.MessageEvent;
+
+import org.greenrobot.eventbus.EventBus;
 
 public class HomepageActivity extends AppCompatActivity {
     private Button staticButton,dynamicButton;
@@ -21,7 +24,7 @@ public class HomepageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_homepage);
         initView();
         initStatic();
-       initDynamic();
+        initDynamic();
     }
     public void initView() {
         toolbar = findViewById(R.id.toolbar);
@@ -52,6 +55,7 @@ public class HomepageActivity extends AppCompatActivity {
         dynamicButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                EventBus.getDefault().post(new MessageEvent());
                 Intent intent=new Intent(HomepageActivity.this,DynamicGameActivity.class);
                startActivity(intent);
 

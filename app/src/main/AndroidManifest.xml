@@ -12,7 +12,6 @@
         <activity android:name=".activity.ScoreBoardActivity"></activity>
         <activity android:name=".activity.RegisterActivity" />
         <activity android:name=".activity.LeaderBoardActivity" />
-        <activity android:name=".activity.DynamicGameActivity" />
         <activity android:name=".activity.InstructionActivity" />
         <activity android:name=".activity.StaticQuiz" />
         <activity android:name=".activity.StaticCategories" />
@@ -26,9 +25,44 @@
             </intent-filter>
         </activity>
 
+        <service
+            android:name=".activity.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".activity.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity android:name=".activity.DynamicGameActivity">
+            <intent-filter>
+                <action android:name="com.example.yourapplication_YOUR_NOTIFICATION_NAME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+
     </application>
 
 </manifest>
