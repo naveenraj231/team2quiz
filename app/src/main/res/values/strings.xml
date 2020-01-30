@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="back">Back</string>
+    <string name="yourScore">YOUR SCORE</string>
+    <string name="noOfQuestionsAttempted">Number Of Questions Attempted : </string>
+    <string name="noOfCorrectAnswers">Number Of Correct Answers : </string>
+    <string name="noOfWrongAnswers">Number Of Wrong Answers : </string>
+    <string name="instruction"> Instructions </string>
+    <string name="instruction1">1. You are allowed to skip only 2 questions. </string>
+    <string name="instruction2">2. Each contest should has questions with different Difficulty Level.</string>
+    <string name="instruction3">3. Each right answer will get one point. </string>
+    <string name="instruction4">4. Answering Average question will get additional one point and Hard question will be 2 points.</string>
+    <string name="instruction5">5. If you answers all the questions without skipping any will get additional 5 bones points.</string>
+    <string name="instruction6">6. Answering the question after the time limit will not give any point in Dynamic contest.</string>
+    <string name="start">Start</string>
+    <string name="questions">Questions : </string>
+    <string name="registration">Sign Up</string>
+    <string name="interest_promt">Choose Your Interest</string>
+
+    <string name="btn_static">Static Quiz</string>
+    <string name="btn_dynamic">Dynamic Quiz</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_link_to_register">Not a member? Get registered!</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="coding">Coding</string>
+    <string name="movies">Movies</string>
+    <string name="booze">Booze</string>
+    <string name="cricket">Cricket</string>
+    <string name="cartoon">Cartoon</string>
+    <string name="web">Web/TV Series</string>
+    <string name="politics">Politics</string>
+    <string name="literature">literature</string>
+    <string name="food">Food</string>
+    <string name="submit">Submit</string>
+    <string name="skip">Skip this question?</string>
+
+
+</resources>
